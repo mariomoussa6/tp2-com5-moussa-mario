@@ -1,0 +1,67 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif; 
+}
+.seccion-about {
+  text-align: center; 
+  background-color: #f8f9fa; 
+  padding: 30px;
+  border-radius: 10px; 
+  margin: 20px auto;
+  max-width: 600px; 
+}
+
+.texto-principal {
+  color: #333333; 
+  font-size: 18px;
+}
+
+.texto-oculto {
+  color: #0056b3; 
+  font-weight: bold;
+}
+
+.boton-ver-mas {
+  background-color: #007bff; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.boton-ver-mas:hover {
+  background-color: #0056b3; 
+}
+
+
+.seccion-header {
+  text-align: center;
+  background-color: #f8f9fa; 
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px auto; 
+  
+}
+
+
+.seccion-skills {
+  text-align: center;
+  background-color: #f8f9fa; 
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.seccion-skills ul {
+  list-style-position: inside; 
+  padding: 0;
+}
+
+.seccion-about h2, .seccion-skills h2 {
+  color: #007bff; 
+  -webkit-text-stroke: 0.3px #202020;
+  
+}

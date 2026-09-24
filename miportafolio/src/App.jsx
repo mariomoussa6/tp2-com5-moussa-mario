@@ -5,7 +5,7 @@ import About from "./components/About";
 function App() {
   return (
     <div>
-      <Header nombre="Mario" profesion="Estudiante de Programación" />
+      <Header nombre="Mario Moussa" profesion="Estudiante de Tecnicatura en Programación UTN" />
 
       <Skills />
 

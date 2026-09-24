@@ -1,12 +1,12 @@
 import React from 'react'
 
 export default function Skills() {
-    const tecnologias = ["C#", ".NET", "Blazor", "MySQL", "React"];
+    const tecnologias = ["C#", ".NET", "Git y GitHub", "MySQL", "React"];
     
   return (
     
-    <div> 
-        <h2>mis habilidades</h2>
+    <div className="seccion-skills"> 
+        <h2>Mis Habilidades</h2>
         
         
         <ul> 
