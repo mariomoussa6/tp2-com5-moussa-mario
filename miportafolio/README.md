@@ -24,13 +24,15 @@ Tecnologias que use:
 
 Como correr el proyecto:
 
-Si queres probar la aplicacion localmente, podes seguir estos pasos desde la terminal:
+Para probar la aplicacion localmente, podes seguir estos pasos desde la terminal:
 
 1. Clonar este repositorio:
    git clone https://github.com/mariomoussa6/tp1-react-portfolio-moussa-mario.git
 
 2. Entrar a la carpeta del proyecto:
-   cd miportafolio
+   cd tp1-react-portfolio-moussa-mario/miportafolio
+
+   (Si descargas el archivo ZIP, descomprimir y acceder a la subcarpeta miportafolio).
 
 3. Instalar las dependencias:
    npm install
