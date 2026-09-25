@@ -1,16 +1,45 @@
-# React + Vite
+Trabajo Practico N 1 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Alumno: Mario Moussa - comisión 5
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Sobre el proyecto:
 
-## Expanding the ESLint configuration
+Es un portfolio personal de una sola pagina hecho con React y Vite. La idea fue aplicar los conceptos basicos que vimos en clase:
+- Separar la interfaz en componentes propios (Header, Skills, About, Projects, Footer).
+- Pasar informacion entre componentes usando props (lo use en Header y en Footer).
+- Mostrar listas dinamicas con arrays y .map() asignando su respectiva key (en las habilidades y en las tarjetas de proyectos).
+- Manejo de estado con useState y renderizado condicional con un evento onClick (en el boton de la seccion Sobre mi para mostrar y ocultar informacion).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Tecnologias que use:
+
+- React
+- Vite
+- JavaScript 
+- CSS para los estilos
+- Git y GitHub
+
+Como correr el proyecto:
+
+Si queres probar la aplicacion localmente, podes seguir estos pasos desde la terminal:
+
+1. Clonar este repositorio:
+   git clone https://github.com/mariomoussa6/tp1-react-portfolio-moussa-mario.git
+
+2. Entrar a la carpeta del proyecto:
+   cd miportafolio
+
+3. Instalar las dependencias:
+   npm install
+
+4. Iniciar el servidor local:
+   npm run dev
+
+5. Abrir el enlace local que muestra la terminal en el navegador (por ejemplo: http://localhost:5173).
+
+Link del repositorio:
+https://github.com/mariomoussa6/tp1-react-portfolio-moussa-mario
+
