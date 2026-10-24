@@ -22,7 +22,7 @@ export default function Projects() {
       titulo: "Sitio Web de Nutrición",
       descripcion: "Plataforma informativa para presentación de productos y servicios de bienestar.",
       tecnologias: "React, Vite",
-      imagen: "/Autos.png"
+      imagen: "/Nutri.png"
     }
   ];
 

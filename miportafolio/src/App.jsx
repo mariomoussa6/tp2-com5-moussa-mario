@@ -1,17 +1,17 @@
+import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import Home from './pages/Home';
-import Skills from './components/Skills';
-import About from "./components/About";
-import Projects from './components/Projects'
+import About from './pages/About';
+import Skills from './pages/Skills';
+import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 
-function App() {
+export default function App() {
   return (
- <BrowserRouter>
+    <BrowserRouter>
       <div className="layout">
         <Sidebar />
-
         <main className="main-content">
           <Routes>
             <Route path="/" element={<Home />} />
@@ -25,5 +25,3 @@ function App() {
     </BrowserRouter>
   );
 }
-
-export default App;
